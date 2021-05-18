@@ -1,11 +1,12 @@
 /* #### navbar #### */
 .navbar{
     position: fixed;
-    z-index: 999;
+    z-index: 990;
     top: 0;
     left: 0;
     background: var(--nero);
     width: 100%;
+    border-bottom:1px solid var(--green);
 }
 .brand-and-toggler{
     display: flex;
@@ -17,6 +18,9 @@
     font-family: var(--poppins);
     font-size: 1.6rem;
     font-weight: 800;
+}
+.navbar-brand img{
+    width:300px;
 }
 .navbar-toggler{
     border: none;
@@ -550,7 +554,7 @@
     width: 100%;
     margin: 1rem 0;
     background: var(--nero);
-    border: 2px solid transparent;
+    border: 2px solid #fff;
     font-size: 1rem;
     padding: 0.8rem 1rem;
     border-radius: 25px;

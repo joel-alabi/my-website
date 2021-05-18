@@ -2,9 +2,10 @@
 :root{
     --poppins: 'Poppins', sans-serif;
     --sans: 'Open Sans', sans-serif;
-    --green: #3abcf0;
-    --black: #111;
-    --nero: #252525;
+    /* --green: -webkit-linear-gradient(#f30909,#05ddd2); */
+    --green: #dd9a05;
+    --black: black;
+    --nero: black;
     --transition: all 0.4s ease;
 }
 *{
